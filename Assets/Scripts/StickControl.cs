@@ -33,7 +33,7 @@ public class StickControl : MonoBehaviour
     }
     IEnumerator stickDelay()
     {
-        yield return new WaitForSecondsRealtime(1.5f);
+        yield return new WaitForSecondsRealtime(2.0f);
         isCooking = false;
         if(cfm.makkaraCurrent == null)
         {
